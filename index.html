@@ -1,311 +1,363 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Welcome to my website">
-    <meta name="author" content="Chris Skowronski">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/mystyles.css">
-    <title>Chris Skowronski's Personal Website</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Chris Skowronski">
+  <meta name="description" content="My personal website">
+  <title>Chris Skowronski's Website</title>
+  <link href="bs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bs/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
-<body>
-  <nav class="navbar navbar-default">
-    <div>
-      <div>
-         <ul class="nav navbar-nav">
-          <li>
-            <a href="#about">About Me</a>
+
+<body id="top" class="index"> 
+  <nav id="topNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <div class="container">
+      <div class="navbar-header ">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsiveNav">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand " href="#top">Chris Skowronski</a>
+      </div>
+      <div class="collapse navbar-collapse" id="responsiveNav">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#top"></a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a  href="#aboutMe">About Me</a>
           </li>
-           <li>
-            <a href="#skills">Skills</a>
-            </li>
-             <li>
-               <a href="#projects">Projects</a>
-             </li>
-             <li>
-                <a href="#resume">Resume</a>
-             </li>
-              <li>
-                <a href="#contact">Contact</a>
-             </li>
-          </ul>
+          <li>
+            <a  href="#experience">Experiences</a>
+          </li>
+          <li>
+            <a  href="#skills">Skills</a>
+          </li>
+          <li>
+            <a  href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a  href="#resume">Resume</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <header id="topPic">
+        <div class="container">
+            <div class="top-sec">
+                <div class="header-text">Welcome to My Website!</div>
+                <br>
+                <a href="#aboutMe" class="btn btn-xl btn-default">More About Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="aboutMe" class="bg-gray">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-12 text-center">
+           <h2 class="sec-head">About Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <p>My name is Chris Skowronski. I am a life-long student and huge sports fan. I 
+                am currently an undergraduate student at the University of Pittsburgh studying
+                Computer Science & Biology.
+            </p>
+            <p>
+               I love to create and design. I am interested in technical consulting, though I am open to all things technology. 
+            </p>
+            <p>
+                I recently finished up an internship with rhipe Solutions and got industry experience in cloud computing and web development. I created cloud applications and company portals. I really enjoyed working as a consultant and meeting with businesses to create solutions that suited their needs. My main experience is in developing applications using object-oriented languages as well as using Javascript frameworks to build the front-end.
+            </p>
+            <p>
+              When I'm not in front of a computer I love to be outside playing baseball. Growing up it was such a huge part of my life and I still really enjoy going to the ballpark or just having a catch. I have made lifelong friends on the field and will always be a fan.
+            </p>
+            <p>
+               You can check out my resume and portfolio below. If you're interested in contacting me, whether it be for collaboration or to just say hello, please contact me at the bottom of the page.
+            </p>
+            </div>
+            <div class="col-lg-4">
+              <div class="center-block">
+                <img class="visible-lg" src="img/About me headshot.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="sec-head">My Experience</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <h3> Technical Consultant - rhipe Solutions, New York</h3>
+            </div>
+          </div>
+          <div class ="row">
+            <div class="col-sm-offset-1 col-sm-11">
+              <ul class="list-group">
+                <li>
+                  Consulted Clients to create and develop Azure solutions
+                </li>
+                <li>
+                  Built an automated database application to assist with flight procedures
+                </li>
+                <li>
+                  Utilized WordPress to create website for an up and coming financial services company
+                </li>
+                <li>
+                  Learned to use SharePoint and Office365 to create company portals
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <h3>Research Assistant - Rutgers University</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-1 col-sm-11">
+              <ul class="list-group">
+                <li>
+                  Assisted professors in department of Pathology with their research
+                </li>
+                <li>
+                  Used Perl scripts and Bioinformatics tools in Genomics research
+                </li>
+                <li>
+                  Writing research paper about conserved regions for future publishing
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <h3>Research Assistant - University of Pittsburgh School of Medicine </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-1 col-sm-11">
+              <ul class="list-group">
+                <li>
+                  Learned about the field of Molecular Dynamics and assisted in creating tool to advance reserach
+                </li>
+                <li>
+                  Used Python tools to interpret large amounts of data and analyze results
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="bg-gray">
+         <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="sec-head">My Skills</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">
+              <span class="bar-text">Python</span> 
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:35%">
+                </div>
+              </div>  
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">
+              <span class="bar-text">C</span>   
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:45%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">
+              <span class="bar-text">Databases (T-SQL, MySQL, MongoDB)</span>   
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">
+              <span class="bar-text">Frameworks (.NET, AngularJS, ReactJS, jQuery)</span>   
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                </div>
+              </div> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">
+              <span class="bar-text">Javascript</span>   
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">
+              <span class="bar-text">C#</span> 
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                </div>
+              </div>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">
+              <span class="bar-text">Java</span> 
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                </div>
+              </div>  
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="sec-head">My Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class = "col-md-4 col-sm-6 portfolio-section text-center">
+              <h4>Flight Procedure Application</h4>
+              <div class="image-wrapper">
+              <img src="img/portfolio/PowerBi.png" class="portfolio-pic">
+              </div>
+              <button id="btnOne"  onclick = "return modalOne();" class="btn btn-default btn-port">Learn More</button>
+            </div>
+            <div class ="col-md-4 col-sm-6 portfolio-section text-center">
+              <h4>Custom SharePoint Portals</h4>
+              <div class="image-wrapper">
+              <img src="img/portfolio/Coleman2.png" class="portfolio-pic">
+              </div>
+              <button id="btnTwo" onClick="return modalTwo();" class="btn btn-default btn-port">Learn More</button>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-section text-center">
+              <h4>Consulting ChatBot</h4>
+              <div class="image-wrapper">
+              <img src="img/portfolio/chatbot.jpg" class="portfolio-pic">
+              </div>
+              <button id="btnThree" onClick = "return modalThree();" class="btn btn-default btn-port">Learn More</button>
+            </div>
+            <div id="modalOne" class="modal" onClick="this.style.display='none';">
+              <div class="modal-page">
+                <span class="close">Click anywhere on page to return</span>
+                <p>Filler</p>
+              </div>
+            </div>
+            <div id="modalTwo" class="modal" onClick="this.style.display='none';">
+              <div class="modal-page">
+                <span class="close">Click anywhere on page to return</span>
+                <p>Filler2</p>
+              </div>
+            </div>
+            <div id="modalThree" class="modal" onClick="this.style.display='none';">
+              <div class="modal-page">
+                <span class="close">Click anywhere on page to return</span>
+                <p>Filler3</p>
+              </div>
+            </div>
+        </div>
+      </section>
+      <section id="resume" class="bg-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="sec-head">Resume</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="resume-button">
+                <button class="btn btn-xl" onClick="window.location.href='resume.pdf'"> View My Resume </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="sec-head">Contact Me</h2>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="messageForm" name="message">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-wrapper">
+                  <label for="n"> Name: </label>
+                  <input type="text" class="custom-form" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-wrapper">
+                  <label for="eml"> Email: </label>
+                  <input type="email" class="custom-form" id="email"  placeholder="Your Email" required>
+                </div>
+                <div class="form-wrapper">
+                  <label for="telephone">Phone Number: </label>
+                  <input type="tel" class="custom-form" id="phone" placeholder="Your Phone Number" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="msg"> Message: </label>
+                  <textarea id="message" class="form-control" placeholder="Your Message" required></textarea>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col lg-12 text-center">
+                <button type="submit" class="btn btn-xl" onsubmit="alert('Message sent');">Send Message</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-  </nav>
-  <header>
-  </header>                                                               
-    <section id="about">
-        <div>
-            <div>
-                <div>
-                    <h2>About Me</h2>
-                    <h3></h3>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div>
-            <div>
-                <div>
-                    <h2>My Experience</h2>
-                    <h3>Just a few of the things I've been involved in over the years.</h3>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <h2>Technical Experience</h2>
-                    </div>
-                </div>
-            </div>
-            <div   >
-                <div>
-                    <h4>Technical Consultant - Rhipe Solutions, NYC</h4>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <ul>
-                       <li>
-                          Consulting clients to create and develop cloud solutions using Azure as well as other Microsoft tools.
-                            </li>
-                            <li>
-                                Building an automated database application using C#, .NET, and PowerBI for airlines to improve their de-icing process.
-                            </li>
-                            <li>
-                               Utilizing WordPress and PHP to create a new website and email service for a new financial company.
-                            </li>
-                            <li>
-                                Learning to use Sharepoint and LiveTiles to create professional intranets.
-                            </li>
-                    </ul>
-                </div>
-            </div>
-            <div   >
-                <div>
-                    <h4>Research Assistant - Rutgers University</h4>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <ul>
-                       <li>
-                                Assisted professors in the department of Pathology & Plant Biology using Bioinformatics knowledge.
-                     </li>
-                      <li>
-                                Utilized Perl and Bioinformatics tools such as Mauve and Velvet to do comparative genomic analyses.
-                     </li>
-                    <li>
-                                Writing research paper about my findings from studying regions of interest of a newly discovered strain of bacteria.
-                     </li>
-                            
-                    </ul>
-                </div>
-            </div>
-            <div   >
-                <div>
-                    <h4>Research Assistant - University of Pittsburgh School of Medicine</h4>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <ul>
-                        <li>
-                                Learned about the field of Molecular Dynamics and helped create application that improves on current research.
-                         </li>
-                         <li>
-                                Used Python tools to interpret big data and analyze results with improved accuracy.
-                     </li>
-                           
-                    </ul>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <h2>Volunteer Experience</h2>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <h4>Technology Focus Group - University of Pittsburgh</h4>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <ul>
-                      <li>
-                         Meet with technology department to provide feedback and create new fresh ideas
-                      </li>
-                       <li>
-                          Vastly improved student printing service UI to provide better experience and usability
-                      </li>
-                      <li>
-                         Surveyed students and helped to get new laptop and phone charging stations added throughout campus 
-                     </li>
-                    </ul>
-                </div>
-            </div>
-            <div   >
-                <div>
-                    <h4>Transfer Student Organization - University of Pittsburgh</h4>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <ul>
-                       <li>
-                                Organized events to help new transfer students meet and get more acclimated with life at their new school
-                       </li>
-                       <li>
-                                Mentored transfer students about social and academic activities to help them get the best experience at the university.
-                       </li>
-                    </ul>
-                </div>
-            </div>
+    </div>
+  </section>
 
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <span class="copyright"> &copy; Chris Skowronski </span>
         </div>
-    </section>                                                             
-    <section>
-        <div>
-            <div>
-                <div>
-                    <h2>Projects</h2>
-                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div>
-                <div>
-                    
-                        <div>
-                            <div>
-                     
-                            </div>
-                        </div>
-                        <img src=""/>
-                    <div>
-                        <h4>Winter Operations</h4>
-                        <p> Cloud Application</p>
-                    </div>
-                </div>
-                <div>
-                    <a>
-                        <div>
-                            <div>
-                            </div>
-                        </div>
-                        <img src="" alt="">
-                    </a>
-                    <div>
-                        <h4>Custom Intranet</h4>
-                        <p>Sharepoint Development</p>
-                    </div>
-                </div>
-                <div>
-                    <a>
-                        <div>
-                            <div>
-                                
-                            </div>
-                        </div>
-                        <img src="" alt="">
-                    </a>
-                    <div>
-                        <h4>Virtual Helpdesk</h4>
-                        <p>Consulting Chatbot</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-    </section>
-   <section id="resume">
-        <div>
-            <div>
-                <div>
-                    <h2>Resume</h2>
-                    <h3>Click these buttons to check out my resume and GitHub account.</h3>
-                </div>
-            </div>
-            <div>
-               <div onClick="window.location.href='resume.pdf'"> 
-                        <div>
-                            <button id="resumeButton" type="submit">View My Resume</button>
-                        </div>
-                </div>
-                <div>
-                     <div>
-                            <button id ="gitButton" onClick="window.location.href='https://github.com/chrisski44'" type="submit" class="btn btn-xl">View My Github</button>
-                     </div>
-                </div>
-                <div></div>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div >
-            <div>
-                <div>
-                    <h2>Contact Me</h2>
-                    <h3>Feel free to send me a message:</h3>
-                </div>
-            </div>
-            <div>
-                <div>
-                 <div>
-                   <form id="contactform" action ="" method="POST"> 
-                    <div>
-                      <div>
-                        <input type="text" placeholder="Your Name" name="name" id="name" required data-validation-required-message="Please enter your name.">
-                          
-                                </div>
-                                <div>
-                                    <input type="text" placeholder="Your Email" name="_replyTo" id="email" required data-validation-required-message="Please enter your email address.">
-                                    
-                                </div>
-                                <div>
-                                    <input type="text" placeholder="Your Phone" name="phone" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <textarea placeholder="Your Message" name="message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div></div>
-                            
-                            <div>
-                                <button type="submit">Send Message</button>
-                            </div>
-                            </form>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div >
-            <div>
-    
-                <div>
-                    <ul>
-                        <li><a href="https://twitter.com/Chris__Ski">Twitter</a>
-                        </li>
-                        <li><a href="https://www.facebook.com/chris.skowronski.1">Facebook</a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/christopher-skowronski-0a1056b6">LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+      </div>
+    </div>
+  </footer>
+
+
+                
+                
+
+
+  <script src="bs/jquery/jquery.min.js"></script>
+  <script src="bs/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/modals.js"></script>
+  <script src="js/menuScroll.js"></script>
 </body>
 </html>
+            

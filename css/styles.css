@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar-custom {
+    background-color: #222222;
+    border-color: transparent;
+    color: white;
+}
+
+.navbar-custom .navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e90ff;
+}
+
+.navbar-custom .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02);
+}
+
+.navbar-custom .nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-custom .navbar-toggle {
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#topPic {
+    height: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+header {
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+
+}
+
+.top-sec {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    line-height: 22px;
+}
+a:hover {
+    color: #1e90ff;
+}
+
+section {
+    padding: 100px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.bg-gray {
+    background-color: #eeeeee;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.btn-xl {
+    background-color: #1e90ff;
+    color: white;
+    border-color: #1e90ff;
+    padding: 20px 40px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-xl:hover {
+    color: white;
+     background-color:#1e90ff;
+    border-color:darkslateblue;
+}
+.top-sec {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.header-text {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+h2.sec-head {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#aboutMe p {
+
+    font-size: 15px;
+}
+
+#experience li {
+
+    font-size: 16px;
+    margin: 1px;
+}
+
+#skills {
+    font-size: 16px;
+    margin: 1px;
+}
+
+ul {
+    list-style-type : circle;
+}
+
+#contact {
+    background-color:#222222;
+}
+
+#contact h2 {
+    color:white;
+}
+
+label {
+    color:white;
+}
+
+div.portfolio-section {
+    margin: 0 0 15px;
+    right: 0;
+    
+}
+
+.image-wrapper {
+    padding-bottom: 10px;
+}
+
+.btn-port {
+    background-color: #1e90ff;
+    color: white;
+    border-color: #1e90ff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-port:hover {
+    color: white;
+     background-color:#1e90ff;
+    border-color:darkslateblue;
+}
+
+.portfolio-pic {
+    display: block;
+    position: relative;
+    max-width: 350px;
+    max-height: 230px;
+    margin: 0 auto;
+    right: 0;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-page {
+    background-color: #f5f5f5;
+    margin: 15% auto;
+    padding: 20px;
+    width: 75%;
+    padding: 20px;
+}
+
+.close {
+    color: #000000;
+    float: right;
+    font-weight: 700;
+    font-size: 25px;
+    z-index: 2;
+}
+.custom-form {
+    display: block;
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-wrapper {
+    padding-bottom: 25px;
+}
+#contact {
+    background-color: #2f4f4f;
+    background-position: center;
+    background-size: cover;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+.form-group input, .form-group textarea {
+    padding:20px;
+}
+
+input {
+    color: black;
+}
+
+textarea.form-control {
+    height:200px;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+}
+
+.copyright {
+    text-transform: uppercase;
+}
